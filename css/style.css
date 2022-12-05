@@ -1,0 +1,23 @@
+/* header */
+header{
+    background-color: #8de0d9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-container{
+    background-color: #f2b126;
+    max-width: 1200px;
+	margin: 0 auto;
+    display: flex;
+}
+
+.menu-container>* {
+    border: 1px dashed black;
+    min-width: 200px;
+}
+
+nav{
+    flex-grow: 1;
+}
