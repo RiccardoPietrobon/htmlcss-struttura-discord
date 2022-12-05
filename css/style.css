@@ -38,7 +38,8 @@ section{
 }
 
 /* figli di sezioni */
-section>*{
+section>*,
+.sezione-box>*{
     border: 2px dashed black;
 }
 
@@ -64,7 +65,7 @@ section>*{
     background-color: #b5b5b5;
 }
 
-.sezione-b{
+.sezione-box{
     display: flex;
     height: 300px;
 }
@@ -87,4 +88,21 @@ section>*{
 .bosco{
     background-color: #228b22;
     height: 600px;
+}
+
+/* sezione finale */
+
+.ultima-sezione{
+    background-color: rgb(35 39 42);
+}
+
+.double{
+    background-color: #ffb5dc;
+    width: calc(100%/3);
+}
+
+.single{
+    background-color: #06e0e0;
+    width: calc(100%/6);
+    border-color: white;
 }
