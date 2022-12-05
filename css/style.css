@@ -22,10 +22,11 @@ nav{
 }
 
 ul{
-    text-align: center;
+    display: flex;
 }
 
 li{
+    justify-content: center;
     float: left;
 }
 
@@ -105,4 +106,22 @@ section>*,
     background-color: #06e0e0;
     width: calc(100%/6);
     border-color: white;
+}
+
+/* footer */
+
+footer{
+    margin-top: 2px;
+    background-color: rgb(35 39 42);
+    padding: 30px;
+}
+
+.sezione-footer{
+    background-color: aqua;
+    height: auto;
+    justify-content: space-between;
+}
+
+.buttons{
+    background-color: #ffb5dc;
 }
