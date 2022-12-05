@@ -13,7 +13,7 @@ header{
 }
 
 .menu-container>* {
-    border: 1px dashed black;
+    border: 2px dashed black;
     min-width: 200px;
 }
 
@@ -22,25 +22,31 @@ nav{
 }
 
 ul{
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 
 li{
+    float: left;
 }
-
-
 
 .login{
     text-align: right;
 }
 
+/* figli di sezioni */
+section>*{
+    border: 2px dashed black;
+}
+
 /* prima sezione */
+
 .sezione-a{
     background-color: #072ab7;
+    padding: 30px;
 }
 
 .pink{
     background-color: #f4beee;
-    height: 100px;
+    height: 300px;
+    max-width: 950px;
 }
