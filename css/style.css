@@ -33,6 +33,10 @@ li{
     text-align: right;
 }
 
+section{
+    padding: 30px;
+}
+
 /* figli di sezioni */
 section>*{
     border: 2px dashed black;
@@ -42,11 +46,45 @@ section>*{
 
 .sezione-a{
     background-color: #072ab7;
-    padding: 30px;
 }
 
 .pink{
     background-color: #f4beee;
     height: 300px;
     max-width: 950px;
+}
+
+/* sezioni opposte */
+
+.alpha{
+    background-color: white;
+}
+
+.beta{
+    background-color: #b5b5b5;
+}
+
+.sezione-b{
+    display: flex;
+    height: 300px;
+}
+
+.column-az{
+    background-color: #529df9;
+    width: 60%;
+}
+
+.column-ro{
+    background-color: #ffb5dc;
+    width: 40%;
+}
+
+/* sezione verde */
+.big{
+    background-color: #b5b5b5; 
+}
+
+.bosco{
+    background-color: #228b22;
+    height: 600px;
 }
