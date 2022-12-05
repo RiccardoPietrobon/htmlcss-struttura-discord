@@ -2,7 +2,6 @@
 header{
     background-color: #8de0d9;
     padding: 20px;
-    display: flex;
     align-items: center;
 }
 
@@ -20,4 +19,28 @@ header{
 
 nav{
     flex-grow: 1;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+}
+
+
+
+.login{
+    text-align: right;
+}
+
+/* prima sezione */
+.sezione-a{
+    background-color: #072ab7;
+}
+
+.pink{
+    background-color: #f4beee;
+    height: 100px;
 }
